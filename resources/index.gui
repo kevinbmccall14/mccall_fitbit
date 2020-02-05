@@ -1,0 +1,18 @@
+<svg>
+  <rect id="background" />
+  <use id="track-button" href="#square-button-toggle" y="5" fill="coral" width="50%">
+    <set href="#text" attributeName="text-buffer" to="Start" />
+    <set href="#text" attributeName="x" to="0" />
+  </use>
+  <use id="stop-button" href="#square-button-toggle" y="5" fill="coral" value="1" width="50%" x="50%">
+    <set href="#text" attributeName="text-buffer" to="Stop" />
+    <set href="#text" attributeName="x" to="0" />
+  </use>
+  <text id="bpm-text"
+        x="50%" y="50%+50"
+        fill="fb-yellow"
+        font-size="100"
+        font-weight="bold"
+        text-length="4"
+        text-anchor="middle">--</text>
+</svg>
